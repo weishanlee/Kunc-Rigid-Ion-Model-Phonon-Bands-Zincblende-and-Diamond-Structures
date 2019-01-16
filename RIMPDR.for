@@ -85,7 +85,7 @@ C
 
          CALL CH(nb,nb,HR,HI,W2,IS,ZR,ZI,FV1,FV2,FM1,IER)
               !give HR and HI, then return W2 (frequency^2)
-         IF(IER.NE.0)WRITE(6,*) '  EISPACK ERROR, IER=',IER
+         IF(IER.NE.0.0)WRITE(6,*) '  EISPACK ERROR, IER=',IER
 C        CONVERT sqrt(e^2/Va/M)/2pi into tera Hz
 C                e: esu, Va: amstrong cube, M: amu
          THZ= SQRT(4.803**2/(1.6605*VA))*100.0/(2.0*PI)
