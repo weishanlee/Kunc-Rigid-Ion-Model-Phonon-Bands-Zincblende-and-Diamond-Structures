@@ -15,7 +15,7 @@ Descriptions of the fortran codes:
 	htribk.for; 
 	htridi.for; 
 	pythang.for; 
-	tql2.for; 
+	tql2.for; and
 	tqlrat.for, which may be found via the website: http://www.netlib.org/eispack/. For copyright reasons the above fortran files are NOT uploaded and are NOT included in this repository.
 
 The output phonon dispersion relation is in PDR.DAT, and may be plotted by any other softwares. The plots of phonon dispersion relations of GaAs, ZnO (in Zincblende), ZnS and AlAs are given in the .jpg format.
