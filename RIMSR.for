@@ -1,5 +1,5 @@
 C     SUBROUTINE TO CALCULATE DYNAMICAL MATRIX FOR
-C     SHORT RANGE PART OF THE INTERACTION FOR RIM (VFM)
+C     SHORT RANGE PART OF THE INTERACTION FOR RIM
 C
       SUBROUTINE RIMSR(A,C,QX,QY,QZ,DSR,DDR,pshr)
 c---  for 2nd n.n. int.
@@ -210,9 +210,9 @@ c----------correct----------------------
         end if
 c----------correct----------------------
 c----------wrong----------------------
-c      DO II=1,4
+c   DO II=1,4
 c   s2=1.
-c        IF(II.eq.2.or.II.eq.3)s2=-1.
+c   IF(II.eq.2.or.II.eq.3)s2=-1.
 c   s1=1.
 c   if(II.eq.2.or.II.eq.4)s1=-1.
 c----------wrong----------------------
@@ -237,7 +237,7 @@ c        CPH1Y=EXP(CI*DOTY*PI2)
 c--- (110), (-1-10), (1-10), (-110)
 c----------correct----------------------
         DO II=1,4
-        if (II==1) then
+      if (II==1) then
         s1=1.
         s2=1.
       else if (II==2) then
@@ -249,7 +249,7 @@ c----------correct----------------------
       else
         s1= 1.
         s2=-1.
-        end if
+      end if
 c----------correct----------------------
 c----------wrong----------------------
 c      DO II=1,4
@@ -267,7 +267,6 @@ c----------wrong----------------------
         DSR(2,2,3,1)=DSR(2,2,3,1)+s1*E2*CPH(II,IH)
         DSR(2,2,2,3)=DSR(2,2,2,3)-s2*E2*CPH(II,IH)
         DSR(2,2,3,2)=DSR(2,2,3,2)+s2*E2*CPH(II,IH)
-
         END DO
       endif
       if(IH==2)then
@@ -359,10 +358,7 @@ C --- DEFINE SELF-INTERACTIONS FOR Q1=0. -----
       DO 200 J=1,3
       DD=0.
       DO 190 JB=1,na
-c     IF(JB.EQ.IB) GO TO 190  ! redundant
-      DD=DD-DSR(IB,JB,I,J)    ! why negative?
-                            ! sum over two atoms for each (x,y,z)
-      !WRITE (*,*) DD
+      DD=DD-DSR(IB,JB,I,J)
  190  CONTINUE
       DDR(IB,I,J)=DD
  200  CONTINUE
@@ -371,7 +367,7 @@ c--- INCLUDE SELF-INTERACTION
       DO 300 IB=1,na
       DO 300 I=1,3
       DO 300 J=1,3
-      DSR(IB,IB,I,J)=DDR(IB,I,J)+DSR(IB,IB,I,J)  ! DDR(1,1,1)=154.2296
+      DSR(IB,IB,I,J)=DDR(IB,I,J)+DSR(IB,IB,I,J)
  300  CONTINUE
 
         RETURN
