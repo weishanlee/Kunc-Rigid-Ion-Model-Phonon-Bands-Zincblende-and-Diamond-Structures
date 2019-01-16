@@ -20,7 +20,7 @@ Descriptions of the fortran code:
 (5)The plots of dispersion relations of GaAs, ZnO (in Zincblende), ZnS and AlAs are given in the .jpg format.
 The output phonon dispersion relation is recorded in PDR.DAT, which may be plotted by any other softwares.
 
-
+References:
 
 [1]K. Kunc and O.H. Hielsen, "Lattice Dynamics of Zincblende Structure Compounds Using Deformation-Dipole Model and Rigid Ion Model", Computer PHysics Communications 16 (1979) 181-197.
 
