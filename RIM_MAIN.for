@@ -10,7 +10,6 @@
 	  real*8 FBD(nb,nk),pshr(ndsr)   !FBD: returned values
 	                                 !pshr: input parameters
 	  real*8 PI
-
           OPEN(UNIT=62,FILE='RIM.DAT',STATUS='old')
 	  OPEN(UNIT=20,FILE='PDR.DAT',STATUS='REPLACE') ! output
 	  OPEN(UNIT=25,FILE='NKL_801.DAT',STATUS='old')
