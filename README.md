@@ -1,10 +1,10 @@
 # PDR of Zincblende and Diamond Crystals based on RIM
 The codes in the repository intends to reproduce the classic work of phonon dispersion relation (PDR) of zincblende and diamond crystals by K. Kunc and O.H. Nielsen[1],[2].
-The main idea of the rigid-ion model(RIM) is that in the Zincblende and Diamond structure, (up to the second neighbour) the interatomic force constants between two atoms are described by the 11 parameters, either obtained by fitting experimental data or from ab initio calculations.
+The main idea of the rigid-ion model(RIM) is that in the Zincblende and Diamond structure, (up to the second neighbour) after considering the symmetry properties of atoms, the interatomic force constants between two atoms are described by the 11 parameters, either obtained by fitting experimental data or from ab initio calculations.
 
 The 11 parameters are given in RIM.DAT, including GaAs, ZnO (in Zincblende), ZnS and AlAs.
 
-Descriptions of the fortran code:
+Descriptions of the fortran codes:
 
 (1)The main program is RIM_MAIN.for.
 (2)The RIMCOUL.for calculates the Coulomb interaction with the Ewald sum.
