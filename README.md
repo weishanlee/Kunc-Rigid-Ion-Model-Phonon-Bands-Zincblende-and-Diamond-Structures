@@ -9,7 +9,7 @@ Descriptions of the fortran code:
 (1)The main program is RIM_MAIN.for.
 (2)The RIMCOUL.for calculates the Coulomb interaction with the Ewald sum.
 (3)The RIMSR.for calculates the short-range interactions of atoms up to the second neighbour. 
-(4)Some regular eispack packages are required
+(4)Some regular eispack packages are required, including
 	ch.for; 
 	epslon.for; 
 	htribk.for; 
@@ -17,11 +17,10 @@ Descriptions of the fortran code:
 	pythang.for; 
 	tql2.for; 
 	tqlrat.for, which may be found via the website: http://www.netlib.org/eispack/index.html
-(5)The plots of dispersion relations of GaAs, ZnO (in Zincblende), ZnS and AlAs are given in the .jpg format.
-The output phonon dispersion relation is recorded in PDR.DAT, which may be plotted by any other softwares.
+(5)The output phonon dispersion relation is recorded in PDR.DAT, which may be plotted by any other softwares. The plots of dispersion relations of GaAs, ZnO (in Zincblende), ZnS and AlAs are given in the .jpg format.
 
 References:
 
 [1]K. Kunc and O.H. Hielsen, "Lattice Dynamics of Zincblende Structure Compounds Using Deformation-Dipole Model and Rigid Ion Model", Computer PHysics Communications 16 (1979) 181-197.
 
-[2]K. Kunc et at., "Lattice Dynamics of Several A^{n}B^{8-N} Having the Zincblende Structure. I. Deformable-Bond Approximation", Phys. Stat. Sol. (b) 71, 341(1975).
+[2]K. Kunc et at., "Lattice Dynamics of Several $A^{n}B^{8-N}$ Having the Zincblende Structure. I. Deformable-Bond Approximation", Phys. Stat. Sol. (b) 71, 341(1975).
