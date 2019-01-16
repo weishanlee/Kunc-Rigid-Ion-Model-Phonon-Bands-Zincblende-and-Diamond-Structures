@@ -23,4 +23,4 @@ References:
 
 [1]K. Kunc and O.H. Hielsen, "Lattice Dynamics of Zincblende Structure Compounds Using Deformation-Dipole Model and Rigid Ion Model", Computer PHysics Communications 16 (1979) 181-197.
 
-[2]K. Kunc et at., "Lattice Dynamics of Several $A^{n}B^{8-N}$ Having the Zincblende Structure. I. Deformable-Bond Approximation", Phys. Stat. Sol. (b) 71, 341(1975).
+[2]K. Kunc et at., "Lattice Dynamics of Several $A^{N}B^{8-N}$ Having the Zincblende Structure. I. Deformable-Bond Approximation", Phys. Stat. Sol. (b) 71, 341(1975).
