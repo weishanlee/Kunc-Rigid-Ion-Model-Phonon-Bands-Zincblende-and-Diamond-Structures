@@ -20,7 +20,7 @@ Descriptions of the fortran codes:
 
 The output phonon dispersion relation is in PDR.DAT, and may be plotted by any other softwares. The plots of phonon dispersion relations of GaAs, ZnO (in Zincblende), ZnS and AlAs are given in the .jpg format.
 
-The executable file is also included. To calculate other materials, one may try to change the 11 parameters in the RIM.DAT file by just coping other parameters in the lists and pasting to replace the first two lines, and run the exe file. The codes are designed to read the RIM.DAT file only for the first two lines.
+The executable file is also included. To calculate other materials, one may try to change the 11 parameters in the RIM.DAT file by just coping other parameters in the lists and pasting to replace the original parameters. Later, run the exe file. The codes are designed to read the RIM.DAT file only for the first two lines.
 
 References:
 
